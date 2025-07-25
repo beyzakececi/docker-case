@@ -1,5 +1,5 @@
-# 1. Python 3.10 sürümüne sahip minimal bir base image kullanılır
-FROM python:3.10-slim
+# 1. Küçük ve hızlı Python 3.10 Alpine imajı kullanılır
+FROM python:3.10-alpine
 
 # 2. Uygulamanın container içindeki çalışma dizini tanımlanır
 WORKDIR /app
